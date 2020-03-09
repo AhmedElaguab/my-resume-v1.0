@@ -5,8 +5,7 @@
       <br />
       My name is Ahmed Elaguab,
       <br />
-
-      and I'm a Front-end Web Developer.
+      and I'm a Front End Web Developer.
     </h1>
   </div>
 </template>
