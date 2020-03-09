@@ -1,8 +1,8 @@
 <template>
   <div class="intro">
-    <h1>Hi!</h1>
+    <h2>Hi!</h2>
     <p>
-      I'm a Front End Web Developer with a strong desire to learn new
+      I'm Ahmed, a Front End Web Developer with a strong desire to learn new
       technologies. Looking for an entry-level Front End Developer role or a Web
       Developer Internship role.
     </p>
@@ -18,19 +18,3 @@ export default {
   name: "Intro"
 };
 </script>
-
-<style scoped>
-.intro {
-  margin-bottom: 50px;
-}
-
-h1 {
-  margin-bottom: 16px;
-}
-
-p {
-  font-size: 22px;
-  line-height: 1.5;
-  margin-bottom: 12px;
-}
-</style>
