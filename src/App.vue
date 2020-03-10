@@ -5,6 +5,7 @@
       <Intro></Intro>
       <Skills></Skills>
       <Projects></Projects>
+      <Contact></Contact>
     </Container>
   </div>
 </template>
@@ -15,6 +16,7 @@ import Header from "./components/Header";
 import Intro from "./components/Intro";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 
 export default {
   name: "App",
@@ -23,7 +25,8 @@ export default {
     Header,
     Intro,
     Skills,
-    Projects
+    Projects,
+    Contact
   }
 };
 </script>
@@ -73,7 +76,8 @@ a {
 
 .intro,
 .skills,
-.projects {
+.projects,
+.contact {
   margin-bottom: 65px;
 }
 
@@ -81,7 +85,8 @@ a {
   .header,
   .intro,
   .skills,
-  .projects {
+  .projects,
+  .contact {
     padding-right: 15px;
     padding-left: 15px;
   }
