@@ -1,13 +1,12 @@
 <template>
-  <div class="header">
+  <header class="header">
     <h1>
       Welcome to My Portfolio.
-      <br />
-      My name is Ahmed Elaguab,
-      <br />
-      and I'm a Front End Web Developer.
+      <!-- eslint-disable-next-line -->
+      <br />My name is Ahmed Elaguab,
+      <br />and I'm a Front End Web Developer.
     </h1>
-  </div>
+  </header>
 </template>
 
 <script>
