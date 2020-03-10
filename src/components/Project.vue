@@ -1,10 +1,10 @@
 <template>
   <li>
     <a :href="project.github" target="_blanc">
-      {{ project.name }} -
+      <span v-if="project.name">{{ project.name }} -</span>
       <span class="desc">{{ project.desc }}</span>
       <br />
-      <small>
+      <small v-if="project.language">
         <span :class="'lang ' + project.language"></span>
         <span>{{ project.language }}</span>
       </small>
@@ -33,6 +33,10 @@ a {
   border-radius: 4px;
   padding: 8px 20px;
   box-shadow: 0px -1px 0px 2px #607d8b94;
+}
+
+a:hover {
+  box-shadow: 0px -1px 0px 2px #3f51b5;
 }
 
 small {

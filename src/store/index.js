@@ -38,6 +38,10 @@ export default new Vuex.Store({
         preview: "https://ahmedelaguab.github.io//turtle-facts-quiz-react-app/",
         desc: "A quiz application about turtles built with React.",
         language: "JavaScript"
+      },
+      {
+        github: "https://github.com/AhmedElaguab/",
+        desc: "Visit my github page to see more projects."
       }
     ]
   },
