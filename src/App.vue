@@ -62,6 +62,7 @@ h1,
 h2 {
   font-size: 32px;
   margin-bottom: 25px;
+  color: #3f51b5;
 }
 
 p,

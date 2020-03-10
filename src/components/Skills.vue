@@ -26,6 +26,7 @@ export default {
 <style scoped>
 .skills__list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
   margin-bottom: 16px;
