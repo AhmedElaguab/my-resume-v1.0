@@ -4,6 +4,7 @@
       <Header></Header>
       <Intro></Intro>
       <Skills></Skills>
+      <Projects></Projects>
     </Container>
   </div>
 </template>
@@ -13,6 +14,7 @@ import Container from "./components/Container";
 import Header from "./components/Header";
 import Intro from "./components/Intro";
 import Skills from "./components/Skills";
+import Projects from "./components/Projects";
 
 export default {
   name: "App",
@@ -20,7 +22,8 @@ export default {
     Container,
     Header,
     Intro,
-    Skills
+    Skills,
+    Projects
   }
 };
 </script>
@@ -49,6 +52,19 @@ body {
   margin-right: auto;
 }
 
+h1,
+h2 {
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+
+p,
+a {
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
 .header {
   border-top: 8px solid #3f51b5;
   padding-top: 65px;
@@ -56,25 +72,16 @@ body {
 }
 
 .intro,
-.skills {
+.skills,
+.projects {
   margin-bottom: 65px;
-}
-
-h1,
-h2 {
-  font-size: 32px;
-  margin-bottom: 25px;
-}
-
-p {
-  font-size: 22px;
-  line-height: 1.5;
-  margin-bottom: 12px;
 }
 
 @media screen and (max-width: 830px) {
   .header,
-  .intro {
+  .intro,
+  .skills,
+  .projects {
     padding-right: 15px;
     padding-left: 15px;
   }

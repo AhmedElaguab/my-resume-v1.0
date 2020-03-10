@@ -3,9 +3,7 @@
     <h2>My Skills</h2>
     <!-- eslint-disable-next-line -->
     <ul class="skills__list" v-for="skillsGroup in skills" :key="skillsGroup[0]">
-      <template v-for="skill in skillsGroup">
-        <Skill :skill="skill" :key="skill"></Skill>
-      </template>
+      <Skill v-for="skill in skillsGroup" :skill="skill" :key="skill"></Skill>
     </ul>
   </div>
 </template>
